@@ -1,0 +1,593 @@
+@import url('../css/font.css');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    background-color: rgb(22, 22, 22);
+}
+header {
+    background-image:   url('../image/back-img.png');
+    color: white;
+}
+header .wrapper {
+    padding: 0px 100px 0px 102px;
+    box-sizing: border-box;
+}
+header .section1 {
+    height: 432px;
+    padding: 60px 35px;
+    box-sizing: border-box;
+}
+header .section1 h1 {
+    font-family: MyriadProBold;
+    font-size: 202px;
+    line-height: 100%;
+    letter-spacing: -10px;
+}
+header .section1 h1::first-letter{color: #ffc600;}
+header .section1 p {
+    font-family: MyriadProRegular;
+    font-size: 18px;
+}
+header .section1 p:nth-of-type(1)::first-letter {color: #ffc600;}
+header .section1 p:nth-of-type(2) {color: #ffc600;}
+header .section2 {
+    width: 100%;
+    height: 654px;
+    background-image: url('../image/back-img-header.png');
+    background-size: cover;
+    padding: 60px 35px;
+    box-sizing: border-box;
+}
+header .section2 h3 {
+    font-family: MyriadProBold;
+    font-size: 60px;
+    line-height: 100%;
+}
+header .section2 h3 span {color:#ffc600;}
+header .section2 ul {
+    display: flex;
+}
+header .section2 ul li {
+    padding: 50px 40px 0 0;
+}
+header .section2 ul a {
+    font-family: MyriadProRegular;
+    font-size: 18px;
+    color: #ffc600;
+}
+header .section2 ul a:hover {
+    color: white;
+    border-bottom: 1px #ffc600 solid;
+}
+main {
+    padding: 0 100px 0 102px;
+    box-sizing: border-box;
+}
+main .about {
+    background-color: white;
+    padding-left: 130px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+main .about .section1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+main .about .section1 .wrapper1, .wrapper2 {
+    width: 50%;
+}
+main .about .section1 .wrapper1 h4 {
+    font-family: MyriadProSemibold;
+    color: gray;
+    font-size: 30px;
+    line-height: 100%;
+}
+main .about .section1 .wrapper1 h4 span {font-size: 50px;}
+main .about .section1 .wrapper1 h3 {
+    font-family: MyriadProSemibold;
+    font-size: 80px;
+    line-height: 65%;
+}
+main .about .section1 .wrapper1 h3::first-letter {color: #ffc600;}
+main .about .section1 .wrapper2 p:nth-of-type(1){
+    font-family: MyriadProSemiboldIt;
+    font-size: 14px;
+}
+main .about .section1 .wrapper2 p:nth-of-type(2) {
+    font-family: MyriadProRegular;
+    font-size: 14px;
+}
+.about .section2 {
+    display: flex;
+    justify-content: space-around;
+    width: calc(100% - 130px);
+    padding-top: 70px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+.about .section2 .wrapper3, .wrapper4, .wrapper5 {
+    width: 25%;
+    text-align: center;
+}
+main .about .section2 h6 {
+    font-family: MyriadProSemiboldIt;
+    font-size: 18px;
+}
+main .about .section2 p {
+    font-family: MyriadProRegular;
+    font-size: 10px;
+}
+
+/*  */
+
+main .projects {
+    background-color: white;
+    width: 100%;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+main .projects nav {
+    padding-left: 80px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+main .projects nav h3 {
+    font-family: MyriadProSemibold;
+    font-size: 30px;
+    line-height: 200%;
+}
+main .projects nav h3::first-letter {color: #ffc600;}
+main .projects nav h3 span {
+    font-size: 50px;
+}
+main .projects nav ul {
+    display: flex;
+}
+main .projects nav ul li {
+    margin-right: 35px;
+}
+main .projects nav ul a {
+    position: relative;
+    font-family: MyriadProSemibold;
+    font-size: 10px;
+    color: black;
+}
+main .projects nav ul a:hover:after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    right: 20%;
+    width: 60%;
+    border-bottom: 1px solid #ffc600;
+}
+main .projects .gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+main .projects .gallery img {
+    width: 25%;
+}
+main .strategic {
+    background-color: white;
+    padding: 75px;
+    box-sizing: border-box;
+}
+main .strategic .text h3 {
+    font-family: MyriadProSemibold;
+    font-size: 30px;
+}
+main .strategic .text h3::first-letter {color: #ffc600;}
+main .strategic .text h3 span {font-size: 50px;}
+main .strategic .text p:nth-of-type(1) {
+    font-family: MyriadProSemiboldIt;
+    font-size: 16px;
+}
+main .strategic .text p:nth-of-type(2) {
+    font-family: MyriadProRegular;
+    font-size: 14px;
+    font-weight: lighter;
+}
+main .strategic .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px 0px 0px;
+    box-sizing: border-box;
+}
+main .strategic .wrapper .box {
+    display: flex;
+    height: 287px;
+    padding: 0px 98px 0px 90px;
+    box-sizing: border-box;
+}
+main .strategic .wrapper .box:nth-of-type(1) {
+    padding: 0px 0px 0px 90px;
+}
+main .strategic .wrapper .box:nth-of-type(1) .child-text {
+    padding-right: 0px;
+}
+main .strategic .wrapper .box:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+main .strategic .wrapper .box .child-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+    box-sizing: border-box;
+}
+main .strategic .wrapper .box:nth-of-type(3) .child-text {
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+main .strategic .wrapper .box .child-text h4 {
+    font-family: MyriadProSemibold;
+    font-size: 30px;
+}
+main .strategic .wrapper .box .child-text span {
+    font-size: 50px;
+}
+main .strategic .wrapper .box .child-text p:nth-of-type(1) {
+    font-family: MyriadProSemiboldIt;
+    font-size: 16px;
+}
+main .strategic .wrapper .box .child-text p:nth-of-type(2) {
+    font-family: MyriadProRegular;
+    font-size: 14px;
+}
+main .strategic .wrapper .block1 {
+    width: 50%;
+    padding-left: 35px;
+    box-sizing: border-box;
+}
+main .strategic .wrapper .block1:nth-of-type(1) {
+    padding-right: -100px;
+    box-sizing: border-box;
+}
+main .services {
+    background-image: url(../image/back-serv.png);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    color: white;
+}
+main .services .text {
+    width: 100%;
+}
+main .services .text h3 {
+    font-family: MyriadProSemibold;
+    font-size: 30px;
+}
+main .services .text h3::first-letter {color: #ffc600;}
+main .services .text h3 span {font-size: 50px;}
+main .services .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+main .services .wrapper .block-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 60%;
+}
+main .services .wrapper .block-wrapper .block {
+    width: 40%;
+    margin-bottom: 50px;
+    font-family: MyriadProRegular;
+    font-size: 11px;
+}
+main .services .wrapper .block-wrapper .block h5 {font-size: 18px;}
+main .team {
+    display: flex;
+    background-color: white;
+    padding: 65px;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+}
+main .team .wrapper1 {
+    width: 25%;
+}
+main .team .wrapper1 h3 {
+    font-family: MyriadProSemibold;
+    font-size: 30px;
+}
+main .team .wrapper1 h3::first-letter {color: #ffc600;}
+main .team .wrapper1 h3 span {font-size: 50px;}
+main .team .wrapper2 .text {
+    width: 120%;
+}
+main .team .wrapper2 .foto {
+    display: flex;
+}
+main .team .wrapper2 .foto .block {
+    margin: 20px;
+    margin-left: 0;
+    text-align: center;
+}
+main .team .wrapper2 .text p:nth-of-type(1) {
+    font-family: MyriadProSemiboldIt;
+    font-size: 16px;
+}
+main .team .wrapper2 .text p:nth-of-type(2) {
+    font-family: MyriadProRegular;
+    font-size: 16px;
+}
+main .team .wrapper2 .foto .block h6 {
+    font-family: MyriadProSemibold;
+    font-size: 16px;
+}
+main .team .wrapper2 .foto .block p {
+    font-family: MyriadProRegular;
+    font-size: 16px;
+}
+main .testimonials {
+    display: flex;
+    background-color: #000;
+    color: white;
+    padding: 90px;
+    box-sizing: border-box;
+}
+main .testimonials .text {
+    width: 70%;
+}
+main .testimonials .text h3 {
+    font-family: MyriadProSemibold;
+    font-size: 30px;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+main .testimonials .text h3 span {
+    font-size: 50px;
+    color: #ffc600;
+}
+main .testimonials .text p:nth-of-type(1) {
+    font-family: MyriadProSemiboldIt;
+    font-size: 16px;
+}
+main .testimonials .text p:nth-of-type(2) {
+    font-family: MyriadProRegular;
+    font-size: 14px;
+}
+main .testimonials .foto {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+main .testimonials .foto .wrapper {
+    text-align: center;
+}
+main .testimonials .foto .wrapper h5 {
+    font-family: MyriadProSemibold;
+    font-size: 16px;
+}
+main .testimonials .foto .wrapper p {
+    font-family: MyriadProRegular;
+    font-size: 16px;
+}
+main .blogs {
+    display: flex;
+    background-color: white;
+    padding: 30px 55px 100px 55px;
+}
+main .blogs .wrapper1 {
+    width: 30%;
+}
+main .blogs .wrapper1 h3 {
+    font-family: MyriadProSemibold;
+    font-size: 30px;
+}
+main .blogs .wrapper1 h3 span {
+    font-size: 50px;
+    color: #ffc600;
+}
+main .blogs .wrapper1 ul {
+    margin-left: 80px;
+}
+main .blogs .wrapper1 ul li {
+    margin-top: 25px;
+}
+main .blogs .wrapper1 ul li a {
+    font-family: MyriadProRegular;
+    font-size: 18px;
+    color: black;
+}
+main .blogs .wrapper1 ul li a:hover {color: #ffc600;}
+main .blogs .wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+main .blogs .wrapper2 .block {
+    width: 25%;
+}
+main .blogs .wrapper2 .block h4 {
+    font-family: MyriadProRegular;
+    font-size: 18px;
+    color: #ffc600;
+}
+main .blogs .wrapper2 .block p:nth-of-type(1) {
+    font-family: MyriadProBold;
+    font-size: 12px;
+}
+main .blogs .wrapper2 .block p:nth-of-type(2) {
+    font-family: MyriadProSemiboldIt;
+    font-size: 12px;
+}
+main .contactUs {
+    display: flex;
+    width: 100%;
+    color: white;
+}
+main .contactUs .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/map.png);
+    width: 40%;
+}
+main .contactUs .contacts {
+    background-color: #2046b3;
+    width: 60%;
+    padding: 75px;
+    box-sizing: border-box;
+}
+main .contactUs .contacts h3 {
+    font-family: MyriadProSemibold;
+    font-size: 30px;
+    margin-left: 20px;
+}
+main .contactUs .contacts h3::first-letter {color: #ffc600;}
+main .contactUs .contacts h3 span {font-size: 50px;}
+main .contactUs .contacts form {
+    width: 410px;
+}
+main .contactUs .contacts form input {
+    background-color: #2046b3;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px white solid;
+    margin-top: 20px;
+}
+main .contactUs .contacts form input:focus {
+    border: 1px #9e9e9e solid;
+}
+main .contactUs .contacts form input:focus::placeholder {
+    color: #9e9e9e;
+}
+main .contactUs .contacts form input.name {
+    width: 100%;
+}
+main .contactUs .contacts form p {
+    display: flex;
+    justify-content: space-between;
+}
+main .contactUs .contacts form input::placeholder {
+    color: white;
+    font-family: MyriadProSemibold;
+    font-size: 16px;
+}
+main .contactUs .contacts form textarea {
+    width: 100%;
+    background-color: #2046b3;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px white solid;
+    margin-top: 20px;
+} 
+main .contactUs .contacts form textarea:focus {
+    border: 1px #9e9e9e solid;
+}
+main .contactUs .contacts form textarea:focus::placeholder {
+    color: #9e9e9e;
+}
+main .contactUs .contacts form textarea::placeholder {
+    color: white;
+    font-family: MyriadProSemibold;
+    font-size: 16px;
+}
+main .contactUs .contacts form button {
+    background-color: #ffc600;
+    font-family: MyriadProSemibold;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 5px 30px;
+    box-sizing: border-box;
+    border: none;
+}
+main .contactUs .contacts form button:hover {
+    background-color: #ecb600;
+}
+main .contactUs .contacts .address {
+    padding: 30px 20px 65px 20px;
+    box-sizing: border-box;
+}
+main .contactUs .contacts .address p {
+    margin-top: 35px;
+    font-family: MyriadProRegular;
+    font-size: 12px;
+}
+main .contactUs .contacts .address p span {
+    margin-right: 30px;
+    font-family: MyriadProSemibold;
+    font-size: 16px;
+}
+main .contactUs .contacts hr {
+    width: 410px;
+}
+main .contactUs .contacts .sociality {
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+main .contactUs .contacts .sociality img {
+    width: 20px;
+    height: 20px;
+}
+
+/*    */
+footer {
+    display: flex;
+    padding: 0 100px 0 102px;
+    box-sizing: border-box;
+    color: white;
+}
+footer nav {
+    width: 25%;
+    background-color: black;
+    padding: 115px 25px 70px 25px;
+    box-sizing: border-box;
+}
+footer nav h3 {
+    font-family: MyriadProBold;
+    font-size: 60px;
+}
+footer nav h3::first-letter {color: #ffc600;}
+footer nav ul {
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+footer nav ul li {margin-top: 20px;}
+footer nav ul li a {
+    font-family: MyriadProSemibold;
+    font-size: 16px;
+    color: white;
+}
+footer nav ul li a:hover {color: #ffc600;}
+footer nav hr {
+    width: 115px;
+    border: 1px #ffc600 solid;
+}
+footer nav .sociality {
+    margin-top: 20px;
+}
+footer nav .sociality img {
+    width: 20px;
+    height: 20px;
+}
+footer .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 75%;
+    background-image: url(../image/back-footer.png);
+    background-size: cover;
+    padding: 340px 20px 145px 20px;
+}
+footer .text p {
+    font-family: MyriadProBold;
+    font-size: 100px;
+    line-height: 75%;
+}
+footer .text p span {color: #ffc600;}

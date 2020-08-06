@@ -1,0 +1,17 @@
+@font-face {
+    src: url(../css/fonts/myriad-pro-cufonfonts/MYRIADPRO-BOLD.OTF);
+    font-family: MyriadProBold;
+}
+@font-face {
+    src: url(../css/fonts/myriad-pro-cufonfonts/MYRIADPRO-REGULAR.OTF);
+    font-family: MyriadProRegular;
+}
+@font-face {
+    src: url(../css/fonts/myriad-pro-cufonfonts/MYRIADPRO-SEMIBOLD.OTF);
+    font-family: MyriadProSemibold;
+}
+@font-face {
+    src: url(../css/fonts/myriad-pro-cufonfonts/MYRIADPRO-SEMIBOLDIT.OTF);
+    font-family: MyriadProSemiboldIt;
+}
+
